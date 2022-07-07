@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: bebas nue;
+	padding: 10px;
+	background: #6D8B74;
+}
+.header{
+	display: block;
+	color: #f2f2f2;
+	background: #5F7161;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav {
+	overflow: hidden;
+	background-color: #EFEAD8;
+}
+/* Style the Topnav Links */
+.topnav a{
+	float: left;
+	display: block;
+	color: #5F7161;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.topnav a:hover{
+	color: #fb8500;
+}
+.jalan {
+	overflow: hidden;
+	display: block;
+	background-color: #D0C9C0;
+	font-family: bebas nue;
+	text-decoration-color: #white;
+}
+.leftcolumn {
+	float: left;
+	width: 70%;
+	padding-right: 10px;
+}
+.rightcolumn {
+	float: left;
+	width: 30%;
+	background-color: #;
+	padding-left: 10px;
+}
+/* add a card effect for articles */
+.card {
+	background-color: #EFEAD8;
+	padding: 20px;
+	margin-top: 20px;
+}
+.footer {
+	padding: 5px;
+	text-align: center;
+	background: #023047;
+	color: #fb8500 ;
+	margin-top: 5px;
+}
+/* responsive layout - when the screen is less than 800px wide, make the two columns stack on the top of each othe instead of next to each other */
+@media screen and (max-width: 800px) {
+	.leftcolumn, .rightcolumn, .kotak {
+		width: 100%;
+		padding: 0;
+	}
+}
+/* responsive layout - when the screen is less than 400px wide, make the navigation links sctak on top of each other instead of next to each other */
+@media screen and (max-width:  400px) {
+	.topnav a {
+		float: none;
+		width: 100%;
+	}
+}
